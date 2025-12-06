@@ -11,13 +11,11 @@ import json
 import random
 
 import dash_bootstrap_components as dbc
-import dash_core_components as dcc
 import dash_cytoscape as cyto
-import dash_html_components as html
-from dash import Dash
+from dash import Dash, dcc, html
 from dash.dependencies import Input, Output
 from jupyter_dash import JupyterDash
-from networkx import nx
+import networkx as nx
 
 
 class DashGraph:

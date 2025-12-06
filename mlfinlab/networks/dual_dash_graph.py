@@ -9,8 +9,7 @@ However, this is okay and the Dash server will run without a problem.
 
 import dash_bootstrap_components as dbc
 import dash_cytoscape as cyto
-import dash_html_components as html
-from dash import Dash
+from dash import Dash, html
 from dash.dependencies import Input, Output, State
 from jupyter_dash import JupyterDash
 

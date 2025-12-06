@@ -10,3 +10,7 @@ cover/
 *.pickle
 */.ipynb_checkpoints/*
 mlfinlab.egg-info/*
+venv/
+*.egg-info/
+dist/
+build/
